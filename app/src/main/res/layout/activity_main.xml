@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.winson.learntwo.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProjectOne"
+        android:text="项目6"
+        android:onClick="goToOtherAct"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProjectTwo"
+        android:text="项目7"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnProjectThree"
+        android:layout_toStartOf="@+id/btnProjectThree"
+        android:onClick="goToOtherAct"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProjectThree"
+        android:text="项目8"
+        android:layout_above="@+id/btnProjectFive"
+        android:layout_toRightOf="@+id/btnProjectFive"
+        android:layout_toEndOf="@+id/btnProjectFive"
+        android:onClick="goToOtherAct"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProjectFour"
+        android:text="项目9"
+        android:layout_below="@+id/btnProjectOne"
+        android:layout_toLeftOf="@+id/btnProjectFive"
+        android:layout_toStartOf="@+id/btnProjectFive"
+        android:onClick="goToOtherAct"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnProjectFive"
+        android:text="项目10"
+        android:layout_below="@+id/btnProjectOne"
+        android:layout_toRightOf="@+id/btnProjectOne"
+        android:layout_toEndOf="@+id/btnProjectOne"
+        android:onClick="goToOtherAct"/>
+
+</RelativeLayout>
